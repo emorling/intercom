@@ -2,10 +2,10 @@ const express = require('express');
 const webpack = require('webpack');
 const path = require('path');
 const webpackConfig = require('../config/webpack.config');
+const PORT = process.env.PORT || 5000
 
 const config = {
-  PORT: 3000,
-  HOST: 'localhost'
+  PORT: PORT
 };
 
 const compiler = webpack(webpackConfig);
@@ -25,7 +25,7 @@ server.get('*', function(req, res) {
 });
 
 // Prepare to receive requests.
-server.listen(config.PORT, config.HOST, err => {
+server.listen(config.PORT, err => {
   if (err) throw err;
 
   console.log('Listening at http://' + config.HOST + ':' + config.PORT);
