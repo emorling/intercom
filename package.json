@@ -7,7 +7,8 @@
     "lint": "eslint src",
     "prebuild": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack -p --config ./config/webpack.config.production.js",
-    "postbuild": "copyfiles index.html dist"
+    "postbuild": "copyfiles index.html dist",
+    "postinstall": "cross-env NODE_ENV=production webpack -p --config ./config/webpack.config.production.js"
   },
   "keywords": [
     "react",
