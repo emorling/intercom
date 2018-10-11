@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 react-hot-webpack-express-boilerplate
 =====================
 
@@ -56,3 +57,6 @@ Because the WebStorm IDE uses "safe writes" by default, Webpack's file-watcher w
 * [react-hot-loader on Github](https://github.com/gaearon/react-hot-loader)
 * [Integrating JSX live reload into your workflow](http://gaearon.github.io/react-hot-loader/getstarted/)
 * [Troubleshooting guide](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
+=======
+# intercom
+>>>>>>> ad76bbc711abc3e5f408d90b9558d4e362cf967f
